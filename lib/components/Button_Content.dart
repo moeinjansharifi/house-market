@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_application_1/screens/House.dart';
+import 'package:House_Market/screens/House.dart';
 
 class ButtomContent extends StatelessWidget {
   const ButtomContent({
@@ -16,10 +16,10 @@ class ButtomContent extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
         child: GestureDetector(
           onTap: () {
-            // Navigator.push(
-            //   context,
-            //   MaterialPageRoute(builder: (context) => House()),
-            // );
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => House()),
+            );
           },
           child: Text(
             text,

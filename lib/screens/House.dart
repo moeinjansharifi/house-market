@@ -4,8 +4,8 @@ import 'package:House_Market/components/Title_Content.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:House_Market/components/Icon_content.dart';
 // import 'package:House_Market/screens/HouseDetails.dart';
-// import 'package:House_Market/screens/HouseForRent.dart';
-// import 'package:House_Market/screens/HouseForSale.dart';
+import 'package:House_Market/screens/HouseForRent.dart';
+import 'package:House_Market/screens/HouseForSale.dart';
 // import 'package:House_Market/screens/AddHome.dart';
 
 class House extends StatelessWidget {
@@ -132,12 +132,12 @@ class House extends StatelessWidget {
                         Expanded(
                           child: GestureDetector(
                             onTap: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) => HouseForSale(),
-                              //   ),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => HouseForSale(),
+                                ),
+                              );
                             },
                             child: Column(
                               children: [
@@ -156,12 +156,12 @@ class House extends StatelessWidget {
                         Expanded(
                           child: GestureDetector(
                             onTap: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) => HouseForRent(),
-                              //   ),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => HouseForRent(),
+                                ),
+                              );
                             },
                             child: Column(
                               children: [
