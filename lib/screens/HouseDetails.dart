@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/components/Card.dart';
+import 'package:House_Market/components/Card.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter_application_1/components/Icon_content.dart';
-import 'package:flutter_application_1/components/Title_Content.dart';
+import 'package:House_Market/components/Icon_content.dart';
+import 'package:House_Market/components/Title_Content.dart';
 
 class HouseDetails extends StatelessWidget {
   const HouseDetails({super.key});
