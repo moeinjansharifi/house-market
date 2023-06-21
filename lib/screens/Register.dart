@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:House_Market/screens/LoginPage.dart';
+import 'package:House_Market/screens/LoginPage.dart';
 import 'package:House_Market/components/Button_Content.dart';
 import 'package:House_Market/components/Title_Content.dart';
 
@@ -64,12 +64,12 @@ class RegisterPage extends StatelessWidget {
                   ),
                   TextButton(
                     onPressed: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (context) => LoginPage(),
-                      // ),
-                      // );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LoginPage(),
+                        ),
+                      );
                     },
                     child: Text(
                       "Login ",
