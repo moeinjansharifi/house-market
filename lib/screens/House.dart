@@ -6,7 +6,7 @@ import 'package:House_Market/components/Icon_content.dart';
 import 'package:House_Market/screens/HouseDetails.dart';
 import 'package:House_Market/screens/HouseForRent.dart';
 import 'package:House_Market/screens/HouseForSale.dart';
-// import 'package:House_Market/screens/AddHome.dart';
+import 'package:House_Market/screens/AddHome.dart';
 
 class House extends StatelessWidget {
   const House({super.key});
@@ -23,12 +23,12 @@ class House extends StatelessWidget {
               TitleContent(title: 'HOUSE MARKET'),
               GestureDetector(
                 onTap: () {
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) => AddHome(),
-                  //   ),
-                  // );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AddHome(),
+                    ),
+                  );
                 },
                 child: SimpleIcon(
                   icon: FontAwesomeIcons.circlePlus,
