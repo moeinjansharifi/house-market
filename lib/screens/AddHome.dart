@@ -31,7 +31,7 @@ class AddHome extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      'House For Rent',
+                      'Add House',
                       style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 28.0,
